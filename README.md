@@ -16,8 +16,8 @@ More detail [here](https://formulae.brew.sh/formula/poetry)
 
 We will install python using pyenv. 
 ```
-pyenv install 3.11
-pyenv local 3.11
+pyenv install 3.10
+pyenv local 3.10
 ```
 
 More details about pyenv can be found [here](https://github.com/pyenv/pyenv#installation).
