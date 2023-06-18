@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "algo51-examples"
+version = "0.1.0"
+description = ""
+authors = ["Bot Kampa <kittipat@gmail.com>"]
+readme = "README.md"
+packages = [{include = "algo51_examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.0.2"
+streamlit = "^1.23.1"
+openai = "^0.27.8"
+langchain = "^0.0.203"
+
+[tool.poetry.group.dev.dependencies]
+pinecone-client = "^2.2.2"
+python-dotenv = "^1.0.0"
+tqdm = "^4.65.0"
+pandas = "^2.0.2"
+psycopg2-binary = "^2.9.6"
+PyYAML = "^6.0"
+boto3 = "^1.26.155"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
